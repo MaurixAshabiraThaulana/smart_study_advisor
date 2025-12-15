@@ -1,0 +1,13 @@
+<h2>Riwayat Rekomendasi</h2>
+
+<table border="1">
+<tr><th>Waktu</th><th>Rekomendasi</th></tr>
+{% for r in data %}
+<tr>
+<td>{{ r[1] }}</td>
+<td>{{ r[0] }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<a href="/">⬅ Kembali</a>

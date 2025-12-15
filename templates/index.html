@@ -1,0 +1,32 @@
+<h2>Smart Study Advisor</h2>
+
+<a href="/history">📊 Riwayat</a> | <a href="/logout">Logout</a>
+
+<form method="post">
+    <select name="gaya">
+        <option value="visual">Visual</option>
+        <option value="audio">Audio</option>
+        <option value="praktik">Praktik</option>
+    </select>
+
+    <select name="waktu">
+        <option value="sedikit">Sedikit</option>
+        <option value="banyak">Banyak</option>
+    </select>
+
+    <select name="stres">
+        <option value="rendah">Rendah</option>
+        <option value="tinggi">Tinggi</option>
+    </select>
+
+    <input type="number" name="nilai" placeholder="Nilai">
+    <button>Proses</button>
+</form>
+
+{% if rekomendasi %}
+<ul>
+{% for r in rekomendasi %}
+<li>{{ r }}</li>
+{% endfor %}
+</ul>
+{% endif %}

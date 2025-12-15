@@ -1,0 +1,44 @@
+body {
+font-family: Arial, sans-serif;
+background: #f4f6f8;
+}
+
+
+.container {
+width: 400px;
+margin: 50px auto;
+background: white;
+padding: 20px;
+border-radius: 10px;
+}
+
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+
+select, input {
+width: 100%;
+padding: 8px;
+}
+
+
+button {
+margin-top: 15px;
+width: 100%;
+padding: 10px;
+background: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+}
+
+
+.hasil {
+margin-top: 20px;
+background: #e9f5ff;
+padding: 10px;
+border-radius: 5px;
+}
